@@ -2,9 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../assets/images/logo.png';
 import { ReactComponent as Google } from '../assets/icons/google.svg';
+import { ReactComponent as Facebook } from '../assets/icons/facebook.svg';
 import './Login.css'
 import { connect } from 'react-redux';
-import { loginUser } from '../redux/actions/user';
+import { loginUserWithGoogle, loginUserWithFacebook } from '../redux/actions/user';
 
 class Login extends React.Component {
 
@@ -25,11 +26,18 @@ class Login extends React.Component {
                 <p>Alege providerul cu care vrei să vrei să te loghezi:</p>
 
                 <button
-                    className="btn btn-outline-dark d-flex align-items-center"
+                    className="btn btn-outline-dark d-flex m-1 align-items-center"
                     onClick={() => this.props.signInWithGoogle()}
                 >
                     <Google className="w-50 mr-3"/>
                     <span className="text-nowrap">Loghează-te cu Google</span>
+                </button>
+                <button
+                    className="btn btn-outline-dark d-flex m-1 align-items-center"
+                    onClick={() => this.props.signInWithFacebook()}
+                >
+                    <Facebook className="w-50 mr-2"/>
+                    <span className="text-nowrap">Loghează-te cu Facebook</span>
                 </button>
             </div>
         );
@@ -44,7 +52,8 @@ function mapStateToProps(state) {
 
 function mapDispatchToProps(dispatch) {
     return {
-        signInWithGoogle: () => dispatch(loginUser())
+        signInWithGoogle: () => dispatch(loginUserWithGoogle()),
+        signInWithFacebook: () => dispatch(loginUserWithFacebook())
     }
 }
 
