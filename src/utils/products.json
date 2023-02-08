@@ -1,51 +1,106 @@
 {
-    "shoes": {
+    "beanies": {
         "items": [
             {
                 "id": 1,
-                "name": "Sneakerși piele Massimo Dutti",
-                "price": 135,
+                "name": "Caciula neagra Ozero",
+                "price": 33,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/Rz8lVQa.jpg",
-                "size": 45,
+                "image": "https://i.imgur.com/4bWWHG8.jpg",
+                "size": "M",
                 "colour": "Negru",
-                "material": "Piele",
-                "brand": "Massimo Dutti",
-                "description": "Sneakerși din piele cu talpă inițial albă, din colecția de toamnă-iarnă 2019, Massimo Dutti."
+                "material": "Lana",
+                "brand": "Ozero",
+                "description": "Caciula din ultima colectie Ozero"
             },
             {
                 "id": 2,
-                "name": "Teniși negri Polo Ralph Lauren",
-                "price": 100,
+                "name": "Caciula calduroasa The North Face",
+                "price": 79,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/Og3Oh24.jpg",
-                "size": 45,
-                "colour": "Negru",
-                "material": "Pânză",
-                "brand": "Polo Ralph Lauren",
-                "description": "Teniși din pânză cu talpă inițial albă, din colecția de primăvară-vară 2019, Fashion Days."
+                "image": "https://i.imgur.com/40EvRVK.jpg",
+                "size": "L",
+                "colour": "Maro",
+                "material": "Lana",
+                "brand": "The North Face",
+                "description": "Caciula de calitate foarte inalta, The North Face"
             },
             {
                 "id": 3,
-                "name": "Ghete din piele maro Massimo",
-                "price": 185,
+                "name": "Caciula neagra pentru sport",
+                "price": 57,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/zoqSu87.jpg",
-                "size": 45,
-                "colour": "Maro",
-                "material": "Piele",
-                "brand": "Massimo Dutti",
-                "description": "Ghete maro din piele, din colecția de toamnă-iarnă 2017, Massimo Dutti."
+                "image": "https://i.imgur.com/H9izIAt.jpg",
+                "size": "M",
+                "colour": "Negru",
+                "material": "Lana",
+                "brand": "Under Armor",
+                "description": "Caciula special conceputa pentru sportivi"
             }
         ],
-        "image": "https://i.imgur.com/X0qldXO.jpg",
-        "name": "Încălțăminte",
-        "description": "Ghete, pantofi, sneakerși: finețe garantată!"
+        "image": "https://i.imgur.com/ejJp2pt.jpg",
+        "name": "Caciuli",
+        "description": "Caciuli groase pentru iarna si vreme friguroasa"
+    },
+    "sunglasses": {
+        "items": [
+            {
+                "id": 4,
+                "name": "Ochelari Gucci negri",
+                "price": 2000,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/g3u1GNL.jpg",
+                "size": "L",
+                "colour": "Negru",
+                "material": "Plastic si aluminiu",
+                "brand": "Gucci",
+                "description": "Ochelari de calitate superioara din colectia Gucci"
+            },
+            {
+                "id": 5,
+                "name": "Ochelari alb cu roz",
+                "price": 89,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/ig67PoZ.jpg",
+                "size": "L",
+                "colour": "Alb si roz",
+                "material": "Plastic",
+                "brand": "Meetsun",
+                "description": "Ochelari dama"
+            },
+            {
+                "id": 6,
+                "name": "Ochelari negri",
+                "price": 122,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/alOmzUm.jpg",
+                "size": "M",
+                "colour": "Negru",
+                "material": "Plastic",
+                "brand": "Michael Kors",
+                "description": "Ochelari calitativi Michael Kors"
+            },
+            {
+                "id": 7,
+                "name": "Ochelari aurii tip aviator",
+                "price": 75,
+                "currency": "LEI",
+                "image": "https://i.imgur.com/9BBIeNy.jpg",
+                "size": "L",
+                "colour": "Auriu",
+                "material": "Aluminiu",
+                "brand": "Topfoxx",
+                "description": "Ochelari aurii tip aviator din colectia Topfoxx"
+            }
+        ],
+        "image": "https://i.imgur.com/N1wLkRE.jpg",
+        "name": "Ochelari de soare",
+        "description": "Ochelari calitativi pentru protectie impotriva soarelui"
     },
     "sweaters": {
         "items": [
             {
-                "id": 4,
+                "id": 8,
                 "name": "Pulovăr finuț cu guler",
                 "price": 95,
                 "currency": "LEI",
@@ -57,7 +112,7 @@
                 "description": "Pulovăr din cașmir, slim fit, colecția toamnă-iarnă 2019, DS Damat."
             },
             {
-                "id": 5,
+                "id": 9,
                 "name": "Pulovăr multicolor",
                 "price": 105,
                 "currency": "LEI",
@@ -69,7 +124,7 @@
                 "description": "Pulovăr multicolor, colecția toamnă-iarnă 209, McNeal."
             },
             {
-                "id": 6,
+                "id": 10,
                 "name": "Pulovăr călduros și frumos",
                 "price": 165,
                 "currency": "LEI",
@@ -81,7 +136,7 @@
                 "description": "Pulovăr din lână, în carouri, colecția toamnă-iarnă 2019, SELECTED."
             },
             {
-                "id": 7,
+                "id": 11,
                 "name": "Pulovăr din lână",
                 "price": 160,
                 "currency": "LEI",
@@ -100,7 +155,7 @@
     "pants": {
         "items": [
             {
-                "id": 8,
+                "id": 12,
                 "name": "Blugi bleumarin slim fit",
                 "price": 35,
                 "currency": "LEI",
@@ -112,7 +167,7 @@
                 "description": "Blugi bleumarin, slim fit, colecția primăvară-vară 2019, DS Damat."
             },
             {
-                "id": 9,
+                "id": 13,
                 "name": "Blugi negri slim fit",
                 "price": 40,
                 "currency": "LEI",
@@ -131,7 +186,7 @@
     "jackets": {
         "items": [
             {
-                "id": 10,
+                "id": 14,
                 "name": "Haină lungă din lână virgină",
                 "price": 210,
                 "currency": "LEI",
@@ -143,7 +198,7 @@
                 "description": "Haină lungă din lână virgină, colecția toamnă-iarnă 2018, Peek and Cloppenburg."
             },
             {
-                "id": 11,
+                "id": 15,
                 "name": "Geacă bleumarin cu glugă detașabilă",
                 "price": 250,
                 "currency": "LEI",
@@ -162,7 +217,7 @@
     "tshirts": {
         "items": [
             {
-                "id": 12,
+                "id": 16,
                 "name": "Tricou în dungi",
                 "price": 90,
                 "currency": "LEI",
@@ -174,7 +229,7 @@
                 "description": "Tricou în dungi, colecția primăvară-vară 2019, Lacoste."
             },
             {
-                "id": 13,
+                "id": 17,
                 "name": "Tricou de ping pong",
                 "price": 110,
                 "currency": "LEI",
@@ -186,7 +241,7 @@
                 "description": "Tricou de ping pong cu imprimeu cu dragon, purtat de jucatorii naționalei chinei în 2013."
             },
             {
-                "id": 14,
+                "id": 18,
                 "name": "Tricou original BVB cu autograf",
                 "price": 1909,
                 "currency": "LEI",
@@ -205,7 +260,7 @@
     "accesories": {
         "items": [
             {
-                "id": 15,
+                "id": 19,
                 "name": "Fular TJ cu două fețe",
                 "price": 85,
                 "currency": "LEI",
@@ -217,7 +272,7 @@
                 "description": "Fular cu imprimeu, din colecția toamnă-iarnă 2018, Trussardi Jeans."
             },
             {
-                "id": 16,
+                "id": 20,
                 "name": "Mănuși din piele",
                 "price": 60,
                 "currency": "LEI",
@@ -231,6 +286,6 @@
         ],
         "image": "https://i.imgur.com/qw3wDj8.jpg",
         "name": "Accesorii",
-        "description": "Fulare, căciuli, mănuși: nu mai sta pe gânduri, cumpără-le acuși!"
+        "description": "Fulare, mănuși, bratari: nu mai sta pe gânduri, cumpără-le acuși!"
     }
 }
