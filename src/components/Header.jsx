@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../assets/images/logo.png';
 import { ReactComponent as ShoppingCart } from '../assets/icons/shopping-cart.svg';
+import { ReactComponent as Favorites } from '../assets/icons/favorites.svg';
 import './Header.css';
 import { connect } from 'react-redux';
 import { logoutUser } from '../redux/actions/user';
@@ -27,6 +28,9 @@ function Header(props) {
                             <Link to="/cart" className="d-flex">
                                 <ShoppingCart className="ml-2"/>
                                 <p className="ml-1 mb-0">{ props.numberOfProducts }</p>
+                            </Link>
+                            <Link to="/favorites" className="d-flex">
+                                <Favorites className="ml-5"/>
                             </Link>
                         </div>
                     </div>
