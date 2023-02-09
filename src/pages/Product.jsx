@@ -3,8 +3,8 @@ import Layout from '../components/Layout';
 import products from '../utils/products.json';
 import './Product.css';
 import { connect } from 'react-redux';
-import { addToCart } from '../redux/actions/cart';
-import { addToFavorites } from '../redux/actions/favorites';
+import { addToCart } from '../redux/cart/CartActions';
+import { addToFavorites } from '../redux/favorites/FavoritesActions';
 
 class Product extends React.Component {
     constructor(props) {

@@ -5,7 +5,7 @@ import { ReactComponent as ShoppingCart } from '../assets/icons/shopping-cart.sv
 import { ReactComponent as Favorites } from '../assets/icons/favorites.svg';
 import './Header.css';
 import { connect } from 'react-redux';
-import { logoutUser } from '../redux/actions/user';
+import { logoutUser } from '../redux/user/UserActions';
 
 function Header(props) {
     return(

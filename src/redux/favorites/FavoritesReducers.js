@@ -1,10 +1,12 @@
+import * as FavoritesConstants from "./FavoritesConstants";
+
 const initialState = {
     favorites: []
 }
 
 export function favoritesReducer(state = initialState, action) {
     switch (action.type) {
-        case 'ADD_TO_FAVORITES':
+        case FavoritesConstants.ADD_TO_FAVORITES:
             let productInFavorites = state.favorites.find(product => product.id === action.payload.product.id);
 
             if (!productInFavorites) {
